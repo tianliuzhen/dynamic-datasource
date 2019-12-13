@@ -1,0 +1,55 @@
+server:
+  port: 7084
+spring:
+  datasource:
+    dynamic:
+      druid: #\u4EE5\u4E0B\u662F\u5168\u5C40\u9ED8\u8BA4\u503C\uFF0C\u53EF\u4EE5\u5168\u5C40\u66F4\u6539
+        initial-size: 0
+        max-active: 8
+        min-idle: 2
+        max-wait: -1
+        min-evictable-idle-time-millis: 30000
+        max-evictable-idle-time-millis: 30000
+        time-between-eviction-runs-millis: 0
+        validation-query: select 1
+        validation-query-timeout: -1
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        pool-prepared-statements: true
+        max-open-prepared-statements: 100
+        filters: stat,wall
+        share-prepared-statements: true
+      datasource:
+        master:
+          username: root
+          password: Tlz19970905
+          url: jdbc:mysql://47.98.253.2:3306/master?characterEncoding=utf8&useSSL=false
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            initial-size: 3
+            max-active: 8
+            min-idle: 2
+            max-wait: -1
+            min-evictable-idle-time-millis: 30000
+            max-evictable-idle-time-millis: 30000
+            time-between-eviction-runs-millis: 0
+            validation-query: select 1
+            validation-query-timeout: -1
+            test-on-borrow: false
+            test-on-return: false
+            test-while-idle: true
+            pool-prepared-statements: true
+            max-open-prepared-statements: 100
+            filters: stat,wall
+            share-prepared-statements: true
+        slave:
+          username: root
+          password: Tlz19970905
+          url: jdbc:mysql://47.98.253.2:3306/slave?characterEncoding=utf8&useSSL=false
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            initial-size: 6
+logging:
+  level:
+    com.baomidou: debug
