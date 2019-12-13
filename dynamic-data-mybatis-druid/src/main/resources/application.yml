@@ -20,6 +20,21 @@ spring:
         max-open-prepared-statements: 100
         filters: stat,wall
         share-prepared-statements: true
+#         # 配置监控服务器
+#        stat-view-servlet:
+#          login-username: admin
+#          login-password: 123456
+#          reset-enable: false
+#          url-pattern: /druid/*
+#          # 添加IP白名单
+#          #allow:
+#          # 添加IP黑名单，当白名单和黑名单重复时，黑名单优先级更高
+#          #deny:
+#        web-stat-filter:
+#          # 添加过滤规则
+#          url-pattern: /*
+#          # 忽略过滤格式
+#          exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
       datasource:
         master:
           username: root
