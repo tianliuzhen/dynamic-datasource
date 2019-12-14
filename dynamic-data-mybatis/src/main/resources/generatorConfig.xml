@@ -32,7 +32,11 @@
         <javaClientGenerator targetPackage="com.aaa.dynamic_data_mybatis.dao" targetProject="src/main/java" type="XMLMAPPER"></javaClientGenerator>
 
         <!-- table标签可以有多个，至少一个，tableName指定表名，可以使用_和%通配符 -->
-        <table tableName="a">
+      <!--  用mybatis生成器，生成时总有两个model类，一个是PO类，一个是example,但example我不想要了，想去掉，查一下，修改相关配置即可.-->
+        <table tableName="a"  enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+
             <!-- 是否只生成POJO对象 -->
             <property name="modelOnly" value="false"/>
             <!-- 数据库中表名有时我们都会带个前缀，而实体又不想带前缀，这个配置可以把实体的前缀去掉 -->
