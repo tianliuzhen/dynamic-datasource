@@ -45,6 +45,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.4.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -69,6 +74,14 @@
                         <artifactId>mysql-connector-java</artifactId>
                         <version>5.1.45</version>
                     </dependency>
+                    <!--  use plugin  -->
+                    <!-- https://mvnrepository.com/artifact/com.github.misterchangray.mybatis.generator.plugins/myBatisGeneratorPlugins -->
+                    <dependency>
+                        <groupId>com.github.misterchangray.mybatis.generator.plugins</groupId>
+                        <artifactId>myBatisGeneratorPlugins</artifactId>
+                        <version>1.2</version>
+                    </dependency>
+
                 </dependencies>
             </plugin>
         </plugins>

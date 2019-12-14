@@ -8,7 +8,13 @@
     <context id="MySql" defaultModelType="flat">
         <!-- 生成的POJO实现java.io.Serializable接口 -->
         <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
-
+        <!-- 自动为entity生成swagger2文档-->
+        <plugin type="mybatis.generator.plugins.GeneratorSwagger2Doc">
+            <property name="apiModelAnnotationPackage" value="io.swagger.annotations.ApiModel" />
+            <property name="apiModelPropertyAnnotationPackage" value="io.swagger.annotations.ApiModelProperty" />
+        </plugin>
+        <!-- 扩展entity的set方法-->
+        <plugin type="mybatis.generator.plugins.ExtendEntitySetter" />
         <!--注释-->
         <commentGenerator>
             <!-- 将数据库中表的字段描述信息添加到注释 -->
