@@ -45,11 +45,33 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--提供 get set 方法-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--api swagger依赖核心包-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.4.0</version>
+            <version>2.9.0</version>
         </dependency>
+
+        <!-- swagger 默认UI界面 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <!-- swagger的bootstrap UI界面 -->
+      <!--  <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>1.9.0</version>
+        </dependency>-->
     </dependencies>
 
     <build>

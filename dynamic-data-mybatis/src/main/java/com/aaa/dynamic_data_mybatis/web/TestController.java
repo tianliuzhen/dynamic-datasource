@@ -2,6 +2,7 @@ package com.aaa.dynamic_data_mybatis.web;
 
 import com.aaa.dynamic_data_mybatis.dao.test1.Test1Mapper;
 import com.aaa.dynamic_data_mybatis.dao.test2.Test2Mapper;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +26,7 @@ public class TestController {
     @Autowired
     private Test2Mapper test2Mapper;
 
+    @ApiOperation("test测试接口")
     @GetMapping("/test")
     public void test1(){
         List<Map> list=test1Mapper.getAll2();
