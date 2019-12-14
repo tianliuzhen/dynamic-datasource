@@ -1,6 +1,7 @@
 package com.aaa.dynamic_data_mybatis.config;
 
 
+import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -18,7 +19,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Date: 2019/3/1 10:14
  */
 @Configuration
+//开启swagger2
 @EnableSwagger2
+//开启swagger-bootstrap-ui的增强文档
+@EnableSwaggerBootstrapUI
 public class SwaggerConfig {
     /**
      * 默认扫描包
