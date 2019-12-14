@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!-- 导入配置文件 -->
+    <properties resource="application.properties"/>
+
+    <context id="MySql">
+        <!--1、直接写死-->
+        <!--   <jdbcConnection
+                   driverClass="com.mysql.jdbc.Driver"
+                   connectionURL="jdbc:mysql://47.98.253.2:3306/test"
+                   userId="root"
+                   password="Tlz19970905"/>-->
+        <!--2、从配置文件读取-->
+        <!-- 数据库连接，直接通过${}读取application.properties里的配置 -->
+        <jdbcConnection
+                driverClass="${spring.datasource.hikari.test1.driver-class-name}"
+                connectionURL="${spring.datasource.jdbc-url}"
+                userId="${spring.datasource.hikari.test1.username}"
+                password="${spring.datasource.hikari.test1.password}"/>
+
+        <javaModelGenerator targetPackage="com.aaa.dynamic_data_mybatis.entity" targetProject="src/main/java"></javaModelGenerator>
+        <table tableName="a"></table>
+    </context>
+</generatorConfiguration>
+

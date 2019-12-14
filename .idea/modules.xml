@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/dynamic.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-druid/dynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dynamic_dataSource.iml" filepath="$PROJECT_DIR$/.idea/dynamic_dataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis/dynamic_data_mybatis.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis/dynamic_data_mybatis.iml" />
     </modules>
   </component>
 </project>
