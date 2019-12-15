@@ -8,11 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dynamic" />
         <module name="dynamic_data_mybatis" />
+        <module name="eurkea" />
+        <module name="gateway-swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dynamic" target="1.7" />
       <module name="dynamic_data_mybatis" target="1.7" />
+      <module name="eurkea" target="1.7" />
+      <module name="gateway-swagger2" target="1.8" />
+      <module name="gateway-wagger2" target="1.8" />
+      <module name="gateway_swagger" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
