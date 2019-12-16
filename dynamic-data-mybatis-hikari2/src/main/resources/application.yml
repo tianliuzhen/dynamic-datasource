@@ -1,14 +1,45 @@
+# 项目相关配置
+pkl:
+  # 名称
+  name: dynamicdb
+  # 版本
+  version: 1.0.0
+  # 版权年份
+  copyrightYear: 2019
+
+server:
+  port: 7571
+
 spring:
   datasource:
+    db:
+      jdbcUrl: jdbc:mysql://47.98.253.2:3306/test1?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8
+      username: root
+      password: Tlz19970905
+      driverClassName: com.mysql.cj.jdbc.Driver
+    db2:
+      jdbcUrl: jdbc:mysql://47.98.253.2:3306/test2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8
+      username: root
+      password: Tlz19970905
+      driverClassName: com.mysql.cj.jdbc.Driver
+      enabled: true
     type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.98.253.2:3306/test2?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
-    username: root
-    password: Tlz19970905
     hikari:
-      max-lifetime: 1500000
-      minimum-idle: 3
-      connection-timeout: 30000
-      idle-timeout: 30000
-      pool-name: SpringBootHikariCP
-      maximum-pool-size: 8
+      #      最小空闲链接数
+      minimumIdle: 5
+      #      最大链接数
+      maximumPoolSize: 50
+      #      最大生命周期
+      maxLifetime: 180000
+      #      最长闲置时间
+      idleTimeout: 60000
+      #      等待连接池的最大毫秒数
+      connectionTimeout: 20000
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.aaa.dynamicdatamybatishikari2.model.entity
+
+logging:
+  config: classpath:logback-spring.xml
+

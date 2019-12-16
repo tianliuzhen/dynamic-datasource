@@ -1,4 +1,4 @@
-package com.aaa.dynamicdatamybatishikari2.entity;
+package com.aaa.dynamicdatamybatishikari2.model.entity;
 
 import lombok.Data;
 
