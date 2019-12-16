@@ -3,11 +3,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" />
         <option value="$PROJECT_DIR$/gateway_swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" />
         <option value="$PROJECT_DIR$/eurkea/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
       </list>
     </option>
   </component>

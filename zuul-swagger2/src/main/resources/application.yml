@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: zuul
+zuul:
+  routes:
+    service-a:
+      path: /service-a/** # 配置路由规则
+      serviceId: dynamic-dataSource
+    service-b:
+      path: /service-b/** # 配置路由规则
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7082/eureka/
