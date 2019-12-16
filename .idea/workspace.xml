@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="zuul 聚合 swagger">
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/test2/Test2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/SwaggerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/test/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplicationTests.java" afterDir="false" />
+    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="项目命名规范统一">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/enums/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/mapper/TestBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/DynamicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/dao/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/dao/TestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/test/java/com/aaa/dynamic/DynamicApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/test/java/com/aaa/dynamic_data_mybatis/DynamicApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/Test1DbSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/Test1DbSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/Test2DbSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/Test2DbSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/AMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/AMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/ZeusOrgRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/ZeusOrgRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/test1/Test1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/test1/Test1Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/entity/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/entity/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/entity/ZeusOrgRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/entity/ZeusOrgRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig-min.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig-min.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/AMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/AMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/ZeusOrgRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/ZeusOrgRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/test1/Test1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/test1/Test1Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/test2/Test2Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/test2/Test2Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/test2/Test2Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/web/SwaggerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/test/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/test/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2ApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-druid/target/" />
@@ -50,6 +46,7 @@
     <ignored path="$PROJECT_DIR$/gateway-swagger2/target/" />
     <ignored path="$PROJECT_DIR$/zuul-swagger2/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-hikari/target/" />
+    <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerProvider.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/mapper/TestBaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="290">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,51 +74,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-swagger2/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="115">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/enums/DataSourceType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="46">
+              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="290">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="457">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="506">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -129,26 +144,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="-1288">
+              <caret line="40" column="21" selection-start-line="36" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="23">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,6 +165,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -180,12 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig-min.xml.fxml" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig-min.xml" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/entity/A.java" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/web/SwaggerController.java" />
         <option value="$PROJECT_DIR$/gateway-wagger2/src/main/java/com/aaa/gateway_swagger2/SwaggerConfig/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/eurkea/pom.xml" />
         <option value="$PROJECT_DIR$/eurkea/src/main/java/com/aaa/eurkea/EurkeaApplication.java" />
@@ -217,6 +219,26 @@
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic/DynamicDataMybatisApplication.java" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DB.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/enums/DataSourceType.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSourceContextHolder.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariProperties.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariConfig.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service/SysUserOneDao.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/testWeb.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service/TestBaseMapper.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2Application.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/entity/User.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/mapper/TestBaseMapper.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -346,6 +368,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,62 +380,6 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -475,105 +443,12 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aaa" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayswagger2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewayswagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-swagger2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -581,75 +456,123 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul-swagger2" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicdatamybatishikari2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -662,8 +585,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -675,8 +596,9 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576480237349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576492811067" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -692,13 +614,22 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="dynamic-data-mybatis-hikari2" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -709,8 +640,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.21266234" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DynamicDataMybatisApplication">
+  <component name="RunManager" selected="Spring Boot.DynamicDataMybatisHikari2Application">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -771,6 +703,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicDataMybatisHikari2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dynamic-data-mybatis-hikari2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.dynamicdatamybatishikari2.DynamicDataMybatisHikari2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurkeaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurkea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.eurkea.EurkeaApplication" />
@@ -817,6 +756,7 @@
       <item itemvalue="Spring Boot.GatewaySwagger2Application" />
       <item itemvalue="Spring Boot.DynamicApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.DynamicDataMybatisHikari2Application" />
     </list>
     <recent_temporary>
       <list>
@@ -842,7 +782,8 @@
       <workItem from="1576323445266" duration="14322000" />
       <workItem from="1576421659855" duration="666000" />
       <workItem from="1576467654457" duration="192000" />
-      <workItem from="1576467904582" duration="11842000" />
+      <workItem from="1576467904582" duration="17997000" />
+      <workItem from="1576491576435" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 代码生成器 生成整个库，及去除 example配置">
       <created>1576307788945</created>
@@ -893,17 +834,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576479028877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="项目命名规范统一">
+      <created>1576480311029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576480311029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37259000" />
+    <option name="totallyTimeSpent" value="44647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -913,7 +861,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27440348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -928,6 +876,7 @@
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.36767897" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -937,9 +886,9 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.36609071" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="RestServices" order="9" weight="0.32942432" />
+      <window_info anchor="right" id="RestServices" order="9" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -994,10 +943,33 @@
     <MESSAGE value="使用 gateway（不能使用最新的2.2.2版本会发生冲突）记录gateway采坑 管理 swagger2 ，并且美观 ui &#10;访问美化url：http://localhost:8883/doc.html&#10;访问原url：http://localhost:8883/swagger-ui.html" />
     <MESSAGE value="增加eurkea方便gateway访问" />
     <MESSAGE value="zuul 聚合 swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul 聚合 swagger" />
+    <MESSAGE value="项目命名规范统一" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目命名规范统一" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>testBaseMapper.selectList(null).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(testBaseMapper.selectList(null).size());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.routeLocators.iterator()</expression-string>
         <language-id>JAVA</language-id>
@@ -1031,343 +1003,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/test/java/com/aaa/gateway_swagger2/GatewaySwagger2ApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/pom.xml" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.2.2.RELEASE/spring-boot-starter-parent-2.2.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurkea/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/test/java/com/aaa/gatewayswagger2/GatewaySwagger2ApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerResourcesConfig.java" />
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerResourceController.java" />
-    <entry file="uml://JAVA/com.aaa.gatewayswagger2.GatewaySwagger2Application">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.aaa.gatewayswagger2.GatewaySwagger2Application</OriginalElement>
-          <nodes>
-            <node x="" y="">com.aaa.gatewayswagger2.GatewaySwagger2Application</node>
-            <node x="" y="">org.springframework.boot.autoconfigure.SpringBootApplication</node>
-            <node x="" y="">org.springframework.cloud.netflix.eureka.EnableEurekaClient</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="267.0" y="71.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.aaa:dynamic_data_mybatis:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.aaa:dynamic_data_mybatis:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.aaa:dynamic_data_mybatis:0.0.1-SNAPSHOT</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.2.0.RELEASE/org.springframework.security:spring-security-crypto:jar:5.2.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.7.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.60/org.bouncycastle:bcprov-jdk15on:jar:1.60</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.2.2.RELEASE/org.aspectj:aspectjweaver:jar:1.9.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.10.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.10/org.apache.httpcomponents:httpcore:jar:4.4.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/org.apache.httpcomponents:httpclient:jar:4.5.10/commons-codec:commons-codec:jar:1.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-core:jar:2.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.13/com.fasterxml.jackson.core:jackson-databind:jar:2.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.13/com.fasterxml.woodstox:woodstox-core:jar:5.2.1/org.codehaus.woodstox:stax2-api:jar:4.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.0.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.0.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.ribbon:ribbon-transport:jar:2.3.0/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.hystrix:hystrix-core:jar:1.5.18</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.netflix.hystrix:hystrix-core:jar:1.5.18/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.0.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.0.RELEASE/io.projectreactor:reactor-core:jar:3.3.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.0.RELEASE/io.projectreactor:reactor-core:jar:3.3.1.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.0.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.3.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-starter-cache:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/org.springframework.boot:spring-boot-starter-cache:jar:2.2.2.RELEASE/org.springframework:spring-context-support:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.0.RELEASE/com.stoyanr:evictor:jar:1.0.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.11.1/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.12.1/org.apache.logging.log4j:log4j-api:jar:2.12.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.2.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.2.2.RELEASE/org.yaml:snakeyaml:jar:1.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.10.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.10.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.2.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.10.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.2.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/jakarta.validation:jakarta.validation-api:jar:2.0.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:2.2.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.2.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/com.zaxxer:HikariCP:jar:3.4.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/org.springframework:spring-jdbc:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.2.2.RELEASE/org.springframework:spring-jdbc:jar:5.2.2.RELEASE/org.springframework:spring-tx:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.1.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.mybatis:mybatis:jar:3.5.3</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.1/org.mybatis:mybatis-spring:jar:2.0.3</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.18</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.2/jakarta.activation:jakarta.activation-api:jar:1.2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.apiguardian:apiguardian-api:jar:1.1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.opentest4j:opentest4j:jar:1.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-api:jar:5.5.2/org.junit.platform:junit-platform-commons:jar:1.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-params:jar:5.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.5.2/org.junit.jupiter:junit-jupiter-engine:jar:5.5.2/org.junit.platform:junit-platform-engine:jar:1.5.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.assertj:assertj-core:jar:3.13.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.hamcrest:hamcrest:jar:2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy:jar:1.10.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/net.bytebuddy:byte-buddy-agent:jar:1.10.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.mockito:mockito-core:jar:3.1.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.springframework:spring-test:jar:5.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.2.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.18.10</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.swagger:swagger-annotations:jar:1.5.18</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.swagger:swagger-models:jar:1.5.18</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.springfox:springfox-spi:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.springfox:springfox-spi:jar:2.9.0/io.springfox:springfox-core:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.springfox:springfox-schema:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.springfox:springfox-swagger-common:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/io.springfox:springfox-spring-web:jar:2.9.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/com.fasterxml:classmate:jar:1.5.1</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/org.slf4j:slf4j-api:jar:1.7.29</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.0/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.0</node>
-            <node x="" y="">com.github.xiaoymin:swagger-bootstrap-ui:jar:1.9.0</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.3331016507384883" x="2032.0" y="2830.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-swagger2/zuul-swagger2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-swagger2/zuul.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="21" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurkea/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurkea/src/main/java/com/aaa/eurkea/EurkeaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.9.0/springfox-swagger-common-2.9.0.jar!/springfox/documentation/swagger/web/UiConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="205" column="37" selection-start-line="205" selection-start-column="37" selection-end-line="205" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/base/Supplier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.9.0/springfox-swagger-common-2.9.0.jar!/springfox/documentation/swagger/web/SwaggerResourcesProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.9.0/springfox-swagger-common-2.9.0.jar!/springfox/documentation/swagger/web/SwaggerResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE.jar!/org/springframework/cloud/gateway/support/NameUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.10.RELEASE/reactor-core-3.2.10.RELEASE.jar!/reactor/core/publisher/Flux.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1695" column="28" selection-start-line="1695" selection-start-column="28" selection-end-line="1695" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/GatewaySwagger2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.RELEASE/spring-cloud-netflix-zuul-2.2.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1541,41 +1176,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/dao/TestMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="138">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/test1/Test1Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/ZeusOrgRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/Test1DbSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="-598">
           <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/enum/DataSourceType" />
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="92">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/MybatisPlusConfig.java" />
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service.java" />
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0.jar!/com/baomidou/mybatisplus/core/mapper/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/HikariProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1.jar!/com/zaxxer/hikari/HikariDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/config/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/SwaggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="40" column="21" selection-start-line="36" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.3.0/mybatis-plus-core-3.3.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/mapper/TestBaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/enums/DataSourceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>

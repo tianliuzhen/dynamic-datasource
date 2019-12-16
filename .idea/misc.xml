@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/zuul-swagger2/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml" />
       </list>
     </option>
   </component>

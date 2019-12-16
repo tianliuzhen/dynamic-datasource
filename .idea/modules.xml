@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/dynamic-data-mybatis-druid.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-druid/dynamic-data-mybatis-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/dynamic-data-mybatis-hikari.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/dynamic-data-mybatis-hikari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari2/dynamic-data-mybatis-hikari2.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/dynamic-data-mybatis-hikari2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dynamic_dataSource.iml" filepath="$PROJECT_DIR$/.idea/dynamic_dataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurkea/eurkea.iml" filepath="$PROJECT_DIR$/eurkea/eurkea.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-swagger2/gateway-swagger2.iml" filepath="$PROJECT_DIR$/gateway-swagger2/gateway-swagger2.iml" />

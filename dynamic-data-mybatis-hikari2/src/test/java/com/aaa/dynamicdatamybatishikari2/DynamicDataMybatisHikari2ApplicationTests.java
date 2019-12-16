@@ -1,10 +1,10 @@
-package com.aaa.dynamic_data_mybatis;
+package com.aaa.dynamicdatamybatishikari2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DynamicDataMybatisApplicationTests {
+class DynamicDataMybatisHikari2ApplicationTests {
 
     @Test
     void contextLoads() {
