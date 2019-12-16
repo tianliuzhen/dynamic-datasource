@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dynamic" />
-        <module name="dynamic-data-mybatis" />
+        <module name="dynamic-data-mybatis-druid" />
+        <module name="dynamic-data-mybatis-hikari" />
         <module name="eurkea" />
         <module name="gateway-swagger2" />
         <module name="zuul-swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dynamic" target="1.8" />
-      <module name="dynamic-data-mybatis" target="1.8" />
+      <module name="dynamic-data-mybatis-druid" target="1.8" />
+      <module name="dynamic-data-mybatis-hikari" target="1.8" />
       <module name="eurkea" target="1.8" />
       <module name="gateway-swagger2" target="1.8" />
       <module name="gateway-wagger2" target="1.8" />
@@ -25,8 +25,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="dynamic" options="-parameters" />
-      <module name="dynamic-data-mybatis" options="-parameters" />
+      <module name="dynamic-data-mybatis-druid" options="-parameters" />
+      <module name="dynamic-data-mybatis-hikari" options="-parameters" />
       <module name="eurkea" options="-parameters" />
       <module name="gateway-swagger2" options="-parameters" />
       <module name="zuul-swagger2" options="-parameters" />

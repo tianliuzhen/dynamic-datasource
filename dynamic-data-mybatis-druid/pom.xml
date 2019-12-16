@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.aaa</groupId>
-    <artifactId>dynamic</artifactId>
+    <artifactId>dynamic-data-mybatis-druid</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dynamic</name>
+    <name>dynamic-data-mybatis-druid</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

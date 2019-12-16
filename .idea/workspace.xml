@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="增加eurkea方便gateway访问">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/DocumentationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="zuul 聚合 swagger">
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/test2/Test2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/SwaggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/test/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/DynamicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/dao/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/dao/TestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/test/java/com/aaa/dynamic/DynamicApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-druid/src/test/java/com/aaa/dynamic_data_mybatis/DynamicApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/Test1DbSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/Test1DbSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/Test2DbSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/Test2DbSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/AMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/AMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/ZeusOrgRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/ZeusOrgRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/dao/test1/Test1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/dao/test1/Test1Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/entity/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/entity/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/entity/ZeusOrgRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/entity/ZeusOrgRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig-min.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig-min.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/AMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/AMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/ZeusOrgRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/ZeusOrgRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/test1/Test1Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/test1/Test1Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/mapper/test2/Test2Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/mapper/test2/Test2Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-swagger2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-druid/target/" />
@@ -28,6 +49,7 @@
     <ignored path="$PROJECT_DIR$/eurkea/target/" />
     <ignored path="$PROJECT_DIR$/gateway-swagger2/target/" />
     <ignored path="$PROJECT_DIR$/zuul-swagger2/target/" />
+    <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-hikari/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,57 +64,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-swagger2/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/DocumentationConfig.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/ZuulApplication.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/SwaggerConfig.java">
+        <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            <state relative-caret-position="598">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.RELEASE/spring-cloud-netflix-zuul-2.2.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/Route.class">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-              <folding>
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1861#1862#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.RELEASE/spring-cloud-netflix-zuul-2.2.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/CompositeRouteLocator.class">
+        <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,44 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.0.RELEASE/spring-cloud-netflix-zuul-2.2.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/RouteLocator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/LoggerContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/spi/TurboFilterList.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.3.1/micrometer-core-1.3.1.jar!/io/micrometer/core/instrument/binder/logging/MetricsTurboFilter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="345">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -197,12 +208,15 @@
         <option value="$PROJECT_DIR$/gateway-swagger2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/GatewaySwagger2Application.java" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-swagger2/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/DocumentationConfig.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic/DynamicDataMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java" />
       </list>
     </option>
   </component>
@@ -221,7 +235,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dynamic-data-mybatis-druid" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dynamic-data-mybatis-druid" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -332,106 +356,25 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -439,7 +382,7 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -448,7 +391,7 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -458,13 +401,106 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-druid" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="eurkea" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_data_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
@@ -639,9 +675,9 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576478967172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576480237349" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -656,11 +692,7 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="dynamic_data_mybatis" type="c588b436:RestServiceStructure$ProjectNode" />
+          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
       </expand>
       <select />
@@ -678,7 +710,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.DynamicDataMybatisApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -726,14 +758,14 @@
       </method>
     </configuration>
     <configuration name="DynamicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="dynamic" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.dynamic.DynamicApplication" />
+      <module name="dynamic-data-mybatis-druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.dynamic_data_mybatis.DynamicApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DynamicDataMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="dynamic-data-mybatis" />
+      <module name="dynamic-data-mybatis-hikari" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aaa.dynamic_data_mybatis.DynamicDataMybatisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -810,7 +842,7 @@
       <workItem from="1576323445266" duration="14322000" />
       <workItem from="1576421659855" duration="666000" />
       <workItem from="1576467654457" duration="192000" />
-      <workItem from="1576467904582" duration="10462000" />
+      <workItem from="1576467904582" duration="11842000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 代码生成器 生成整个库，及去除 example配置">
       <created>1576307788945</created>
@@ -854,17 +886,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576422182734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="zuul 聚合 swagger">
+      <created>1576479028877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576479028877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35879000" />
+    <option name="totallyTimeSpent" value="37259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22121535" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -874,8 +913,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28741866" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27440348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27440348" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -898,9 +937,9 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.36609071" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="RestServices" order="9" weight="0.32991362" />
+      <window_info anchor="right" id="RestServices" order="9" weight="0.32942432" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,7 +993,8 @@
     <MESSAGE value="使用 gateway 管理 swagger2 ，并且美观 ui &#10;访问url：http://localhost:8883/doc.html" />
     <MESSAGE value="使用 gateway（不能使用最新的2.2.2版本会发生冲突）记录gateway采坑 管理 swagger2 ，并且美观 ui &#10;访问美化url：http://localhost:8883/doc.html&#10;访问原url：http://localhost:8883/swagger-ui.html" />
     <MESSAGE value="增加eurkea方便gateway访问" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加eurkea方便gateway访问" />
+    <MESSAGE value="zuul 聚合 swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul 聚合 swagger" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -991,11 +1031,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/main/java/com/aaa/gateway_swagger2/SwaggerConfig/SwaggerHandler.java" />
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/main/java/com/aaa/gateway_swagger2/SwaggerConfig/SwaggerHeaderFilter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class" />
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/main/java/com/aaa/gateway_swagger2/GatewaySwagger2Application.java" />
     <entry file="file://$PROJECT_DIR$/gateway-wagger2/src/test/java/com/aaa/gateway_swagger2/GatewaySwagger2ApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/gateway-wagger2/pom.xml" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.2.2.RELEASE/spring-boot-starter-parent-2.2.2.RELEASE.pom">
@@ -1227,14 +1262,7 @@
     <entry file="file://$PROJECT_DIR$/zuul-swagger2/zuul.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/generatorConfig.xml">
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
@@ -1262,20 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/2.9.0/springfox-swagger-common-2.9.0.jar!/springfox/documentation/swagger/web/UiConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -1297,14 +1311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-swagger2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
@@ -1339,13 +1346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/GatewaySwagger2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1364,16 +1364,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
             <element signature="e#946#947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1482,17 +1472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1501,11 +1484,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/java/com/aaa/zuul/config/DocumentationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="506">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding>
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1104" column="19" selection-start-line="1104" selection-start-column="19" selection-end-line="1104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-swagger2/src/main/java/com/aaa/gatewayswagger2/config/SwaggerProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-swagger2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-swagger2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-druid/src/main/java/com/aaa/dynamic_data_mybatis/DynamicApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/java/com/aaa/dynamic_data_mybatis/DynamicDataMybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
