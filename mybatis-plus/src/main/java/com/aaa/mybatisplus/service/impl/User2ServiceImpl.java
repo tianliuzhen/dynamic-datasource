@@ -2,8 +2,7 @@ package com.aaa.mybatisplus.service.impl;
 
 import com.aaa.mybatisplus.entity.User;
 import com.aaa.mybatisplus.mapper.UserMapper;
-import com.aaa.mybatisplus.service.UserService;
-import com.baomidou.dynamic.datasource.annotation.DS;
+import com.aaa.mybatisplus.service.User2Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +14,6 @@ import org.springframework.stereotype.Service;
  * @date 2019/12/17
  */
 @Service
-@DS("master")
-public class UserServiceImpl  extends ServiceImpl<UserMapper, User> implements UserService {
+public class User2ServiceImpl extends ServiceImpl<UserMapper, User> implements User2Service {
 
 }
