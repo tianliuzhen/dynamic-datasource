@@ -11,6 +11,10 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
+/**
+ * 登录的密码设置和yml文件里面设置效果一样
+ * @author 信息
+ */
 @Configuration
 public class DruidConfig {
     @Bean

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.aaa</groupId>
-    <artifactId>dynamic-data-mybatis-druid</artifactId>
+    <artifactId>dynamic-data-mybatis-druid-and-hikariCP</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dynamic-data-mybatis-druid</name>
+    <name>dynamic-data-mybatis-druid-and-hikariCP</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -49,18 +49,13 @@
         <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
         <!--这里是 druid-spring-boot-starter  会有 webUi 监控
          访问地址  eg：http://localhost:7084/druid/index.html  -->
-        <dependency>
+      <!--  <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.10</version>
+            <version>1.1.21</version>
             <optional>true</optional>
-        </dependency>
-     <!--   <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.18</version>
         </dependency>-->
-        <!--主从配置依赖-->
+        <!--苞米动态数据源依赖-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
