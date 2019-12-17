@@ -6,22 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dynamic-data-mybatis-druid-and-hikariCP" />
         <module name="dynamic-data-mybatis-hikari" />
-        <module name="dynamic-data-mybatis-hikari2" />
+        <module name="dynamic-data-mybatisPlus-hikari2" />
         <module name="eurkea" />
         <module name="gateway-swagger2" />
+        <module name="mybatis-plus" />
         <module name="zuul-swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dynamic-data-mybatis-druid-and-hikariCP" target="1.8" />
       <module name="dynamic-data-mybatis-hikari" target="1.8" />
-      <module name="dynamic-data-mybatis-hikari2" target="1.8" />
+      <module name="dynamic-data-mybatisPlus-hikari2" target="1.8" />
       <module name="eurkea" target="1.8" />
       <module name="gateway-swagger2" target="1.8" />
       <module name="gateway-wagger2" target="1.8" />
       <module name="gateway_swagger" target="1.7" />
+      <module name="mybatis-plus" target="1.8" />
       <module name="zuul-swagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -29,9 +30,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dynamic-data-mybatis-druid-and-hikariCP" options="-parameters" />
       <module name="dynamic-data-mybatis-hikari" options="-parameters" />
-      <module name="dynamic-data-mybatis-hikari2" options="-parameters" />
+      <module name="dynamic-data-mybatisPlus-hikari2" options="-parameters" />
       <module name="eurkea" options="-parameters" />
       <module name="gateway-swagger2" options="-parameters" />
+      <module name="mybatis-plus" options="-parameters" />
       <module name="zuul-swagger2" options="-parameters" />
     </option>
   </component>

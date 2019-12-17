@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/dynamic-data-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>
