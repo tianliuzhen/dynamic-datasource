@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-druid-and-hikariCP/dynamic-data-mybatis-druid-and-hikariCP.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-druid-and-hikariCP/dynamic-data-mybatis-druid-and-hikariCP.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/dynamic-data-mybatis-hikari.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatis-hikari/dynamic-data-mybatis-hikari.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/dynamic-data-mybatisPlus-hikari2.iml" filepath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/dynamic-data-mybatisPlus-hikari2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dynamic_dataSource.iml" filepath="$PROJECT_DIR$/.idea/dynamic_dataSource.iml" />
