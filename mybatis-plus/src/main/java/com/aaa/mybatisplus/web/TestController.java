@@ -4,6 +4,9 @@ import com.aaa.mybatisplus.entity.User;
 import com.aaa.mybatisplus.mapper.UserMapper;
 import com.aaa.mybatisplus.service.User2Service;
 import com.aaa.mybatisplus.service.UserService;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.TypeReference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,6 +30,10 @@ public class TestController {
         System.out.println(("----- selectAll method test ------"));
         List<User> userList = userMapper.selectList(null);
         userList.forEach(System.out::println);
+        System.out.println("测试序列化：：：：");
+        String jsonString = JSONObject.toJSONString(userList);
+        List<User> list = JSON.parseObject(jsonString, new TypeReference<List<User>>(){});
+        list.forEach(System.out::println);
     }
     @GetMapping("testSelect2")
     public void testSelect2() {

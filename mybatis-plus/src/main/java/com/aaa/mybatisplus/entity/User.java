@@ -1,5 +1,7 @@
 package com.aaa.mybatisplus.entity;
 
+import com.aaa.mybatisplus.enums.GenderEnum;
+import com.alibaba.fastjson.annotation.JSONType;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -12,10 +14,11 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
+@JSONType(serializeEnumAsJavaBean = true)
 public class User {
     private Long id;
     private String name;
-    private Integer age;
+    private GenderEnum age;
     private String email;
 }
 

@@ -3,6 +3,7 @@ spring:
     active: hikariCP
 
 #mybatis-plus配置控制台打印完整带参数SQL语句
-#mybatis-plus:
+mybatis-plus:
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    typeEnumsPackage: com.aaa.mybatisplus.enums
