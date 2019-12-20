@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="mybatis-plus 假如代码生成器 ，且实现 controller、service、serviceImpl 及 mapper、entity 等&#10;真是太方便了">
+    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="hikari 参数配置补充">
+      <change afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/spy.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-druid/target/" />
@@ -46,10 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/CodeGenerator.java">
+        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="299">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,23 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/controller/AController.java">
+        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="434">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/spy.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -82,14 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/dynamic-datasource-spring-boot-starter/2.4.2/dynamic-datasource-spring-boot-starter-2.4.2.jar!/com/baomidou/dynamic/datasource/spring/boot/autoconfigure/hikari/HikariCpConfig.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="5359">
               <caret line="307" column="16" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
-              <folding>
-                <element signature="e#10823#10824#0" expanded="true" />
-                <element signature="e#10861#10862#0" expanded="true" />
-                <element signature="e#10925#10926#0" expanded="true" />
-                <element signature="e#10983#10984#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -97,22 +91,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-plus/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="155">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -120,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/entity/A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="345">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
@@ -191,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamic-data-mybatis-druid-and-hikariCP/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatis-hikari2/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service/impl/SysUserService.java" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/base/IBaseService.java" />
@@ -210,7 +207,6 @@
         <option value="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2Application.java" />
         <option value="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/service/impl/SysUserSeriveImpl.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/MybatisPlusApplication.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/impl/UserService.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/UserService.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/impl/UserServiceImpl.java" />
@@ -221,7 +217,6 @@
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/enums/DB.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/User2Service.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/enums/test.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/Base/BaseController.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/enums/DB.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/common/BaseController.java" />
@@ -241,7 +236,10 @@
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/test/SysUserOneMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/controller/AController.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java" />
+        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml" />
+        <option value="$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -397,36 +395,7 @@
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
               <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic_dataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic-data-mybatis-hikari" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dynamic_dataSource" type="b2602c69:ProjectViewProjectNode" />
@@ -580,8 +549,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -593,7 +562,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576733970015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576817431094" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mybatis-plus/src/test/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-data-mybatis-druid-and-hikariCP/pom.xml" />
@@ -604,23 +573,23 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myweb\dynamic_dataSource\dynamic-data-mybatisPlus-hikari2\src\main\java\com\aaa\dynamicdatamybatishikari2\service\impl" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.aaa.gateway_swagger2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myweb\dynamic_dataSource\mybatis-plus\src\main\java\com\aaa\mybatisplus" />
-      <recent name="D:\myweb\dynamic_dataSource\mybatis-plus\src\main\java\com\baomidou\ant\test_model" />
-      <recent name="D:\myweb\dynamic_dataSource" />
-      <recent name="D:\cloud\dynamic_dataSource\dynamic-data-mybatis-hikari2\src\main\java\com\aaa\dynamicdatamybatishikari2" />
-      <recent name="D:\cloud\dynamic_dataSource\dynamic-data-mybatis-hikari2\src\main\java\com\aaa\dynamicdatamybatishikari2\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aaa.mybatisplus.enums" />
       <recent name="com.aaa.dynamicdatamybatishikari2.service.impl" />
       <recent name="com.aaa.dynamicdatamybatishikari2.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myweb\dynamic_dataSource\dynamic-data-mybatisPlus-hikari2\src\main\java\com\aaa\dynamicdatamybatishikari2\service\impl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myweb\dynamic_dataSource\mybatis-plus\src\main\resources" />
+      <recent name="D:\myweb\dynamic_dataSource\mybatis-plus\src\main\java\com\aaa\mybatisplus" />
+      <recent name="D:\myweb\dynamic_dataSource\mybatis-plus\src\main\java\com\baomidou\ant\test_model" />
+      <recent name="D:\myweb\dynamic_dataSource" />
+      <recent name="D:\cloud\dynamic_dataSource\dynamic-data-mybatis-hikari2\src\main\java\com\aaa\dynamicdatamybatishikari2" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -832,6 +801,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Application.test (1)" />
       <item itemvalue="JUnit.MybatisPlusApplicationTests.testSelect" />
       <item itemvalue="JUnit.MybatisPlusApplicationTests.testAdds" />
       <item itemvalue="Spring Boot.DynamicDataMybatisApplication" />
@@ -841,8 +812,6 @@
       <item itemvalue="Spring Boot.EurkeaApplication" />
       <item itemvalue="Spring Boot.GatewaySwagger2Application" />
       <item itemvalue="Spring Boot.MybatisPlusApplication" />
-      <item itemvalue="Application.CodeGenerator" />
-      <item itemvalue="Application.test (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -879,7 +848,8 @@
       <workItem from="1576505797291" duration="167000" />
       <workItem from="1576565926136" duration="4304000" />
       <workItem from="1576570271146" duration="10871000" />
-      <workItem from="1576637031009" duration="15988000" />
+      <workItem from="1576637031009" duration="16096000" />
+      <workItem from="1576816510002" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 代码生成器 生成整个库，及去除 example配置">
       <created>1576307788945</created>
@@ -958,7 +928,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576658626528</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hikari 参数配置补充">
+      <created>1576734006185</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576734006185</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -991,13 +968,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83614000" />
+    <option name="totallyTimeSpent" value="84549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1007,8 +984,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4143167" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31019524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37960956" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43817788" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1092,7 +1069,8 @@
     <MESSAGE value=" &lt;artifactId&gt;druid-spring-boot-starter&lt;/artifactId&gt;   动态 配置 druid 和 hikair" />
     <MESSAGE value="新增 mybatis-plus 模块" />
     <MESSAGE value="mybatis-plus 假如代码生成器 ，且实现 controller、service、serviceImpl 及 mapper、entity 等&#10;真是太方便了" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis-plus 假如代码生成器 ，且实现 controller、service、serviceImpl 及 mapper、entity 等&#10;真是太方便了" />
+    <MESSAGE value="hikari 参数配置补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="hikari 参数配置补充" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1151,33 +1129,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/entity/Stu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model2/entity/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/entity/Stu.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model2/entity/A.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.0/mybatis-plus-generator-3.3.0.jar!/com/baomidou/mybatisplus/generator/config/DataSourceConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1185,67 +1138,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model/StuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model2/AMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/common/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/impl/StuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/mapper/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/mapper/StuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/IStuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model/StuMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model/SysUserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test_model2/AMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/common/BaseController.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/impl/StuServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/mapper/SysUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/impl/SysUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/mapper/StuMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/baomidou/ant/test_model/service/IStuService.java" />
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/User2Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1290,27 +1191,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test/AMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/controller/AController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/controller/SysUserOneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/test/AMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/controller/AController.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/controller/SysUserOneController.java" />
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/common/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1318,29 +1201,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/MybatisPlusUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="142" column="32" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2199#2566#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#4614#4914#0" expanded="true" />
-            <element signature="e#3972#3988#0" expanded="true" />
-            <element signature="e#4913#4914#0" expanded="true" />
-            <element signature="e#4997#5012#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/service/IAService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/MybatisPlusUtils.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/service/IAService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.0/mybatis-plus-generator-3.3.0.jar!/com/baomidou/mybatisplus/generator/config/FileOutConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1365,26 +1227,10 @@
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/test/AMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/xml/SysUserOneMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/AMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/SysUserOneMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/xml/AMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/xml/SysUserOneMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/AMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/SysUserOneMapper.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/test/mapper/xml/AMapper.xml" />
     <entry file="file://$PROJECT_DIR$/dynamic-data-mybatis-hikari/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1397,30 +1243,9 @@
         <state relative-caret-position="-667" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/test/SysUserOneMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/bbb/mybatisplus/test/entity/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/test.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/mapper/test/SysUserOneMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/bbb/mybatisplus/test/entity/A.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.0/mybatis-plus-generator-3.3.0.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1435,16 +1260,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/IAService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/CodeGenerator/CodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="1748">
           <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1452,35 +1270,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/controller/AController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="5" />
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/dynamic-datasource-spring-boot-starter/2.4.2/dynamic-datasource-spring-boot-starter-2.4.2.jar!/com/baomidou/dynamic/datasource/spring/boot/autoconfigure/hikari/HikariCpConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5359">
+          <caret line="307" column="16" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/entity/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="345">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/controller/AController.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/IAService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="299">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,26 +1319,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/dynamic-datasource-spring-boot-starter/2.4.2/dynamic-datasource-spring-boot-starter-2.4.2.jar!/com/baomidou/dynamic/datasource/spring/boot/autoconfigure/hikari/HikariCpConfig.class">
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/java/com/aaa/mybatisplus/web/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="307" column="16" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
-          <folding>
-            <element signature="e#10823#10824#0" expanded="true" />
-            <element signature="e#10861#10862#0" expanded="true" />
-            <element signature="e#10925#10926#0" expanded="true" />
-            <element signature="e#10983#10984#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/spy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application-hikariCP.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="434">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-plus/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>

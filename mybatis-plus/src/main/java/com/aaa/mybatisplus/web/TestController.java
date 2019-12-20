@@ -30,6 +30,7 @@ public class TestController {
     }
     @GetMapping("testSelect2")
     public void testSelect2() {
+        userService.getById(1);
         System.out.println(userService.list().size());
         System.out.println("---------");
         System.out.println(user2Service.list().size());
