@@ -1,6 +1,7 @@
 package com.aaa.mybatisplus.web;
 
 import com.aaa.mybatisplus.entity.User;
+import com.aaa.mybatisplus.enums.GenderEnum;
 import com.aaa.mybatisplus.mapper.UserMapper;
 import com.aaa.mybatisplus.service.User2Service;
 import com.aaa.mybatisplus.service.UserService;
@@ -45,11 +46,16 @@ public class TestController {
     @GetMapping("testAdds")
     public void testAdds() {
         List<User> list=new ArrayList<>();
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 3; i++) {
             User user=new User();
             user.setName("tom"+i);
             list.add(user);
         }
-        userService.saveBatch(list);
+        User user1=new User();
+        user1.setEmail("74@qq.com").setAge(GenderEnum.FEMALE).setId("1");
+        //测试单个update
+        //userService.updateById(user1);
+        //测试批量添加
+         userService.saveBatch(list);
     }
 }
