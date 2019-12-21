@@ -9,6 +9,7 @@ mybatis-plus:
     global-config:
       db-config:
         # 这里的自定义的字段是 数据库映射的实体类映射 eg： is_del =>  isDel
+        #但如果实体类上有 @TableLogic 则以实体上的为准，忽略全局。 即先查找注解再查找全局，都没有则此表没有逻辑删除。
         logic-delete-field: isDel  #全局逻辑删除字段值 3.3.0开始支持，详情看下面。
         logic-delete-value: 1 # 逻辑已删除值(默认为 1)
         logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
