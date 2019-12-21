@@ -8,6 +8,8 @@ import com.aaa.mybatisplus.service.UserService;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +27,20 @@ public class TestController {
 
     @Autowired
     private User2Service user2Service;
+
+    @GetMapping("testSelectPage")
+    public void testSelectPage() {
+        System.out.println("分页测试：：：");
+        Page page = new Page();
+        // 每页数量、当前页
+        page.setSize(5).setCurrent(1);
+        // 当 total 为小于 0 或者设置 setSearchCount(false) 分页插件不会进行 count 查询
+        IPage<User> iPage=user2Service.selectUserPage(page, "tom");
+        List<User> users=iPage.getRecords();
+
+        users.forEach(System.out::println);
+    }
+
 
     @GetMapping("testSelect")
     public void testSelect() {

@@ -2,6 +2,7 @@ package com.aaa.mybatisplus.config;
 
 /**
  * description: java 版雪花算法
+ * 注意: 单线程 for 循环测试会 有重复Id
  *
  * @author 田留振(liuzhen.tian @ haoxiaec.com)
  * @version 1.0
