@@ -43,6 +43,8 @@ public class TestController {
         user2Service.removeById(2);
         user2Service.getById(1);
         System.out.println();
+        //全表删除或更新
+        userMapper.delete(null);
     }
 
 

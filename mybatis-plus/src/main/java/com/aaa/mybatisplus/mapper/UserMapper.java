@@ -4,6 +4,7 @@ import com.aaa.mybatisplus.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -32,5 +33,8 @@ public interface UserMapper extends BaseMapper<User> {
      */
     @Select({" select * from user where `name` LIKE  concat(concat('%',#{name}),'%')  "})
     IPage<User>   selectPageVo(Page page, @Param("name") String name);
+
+    @Delete({" delete from user  "})
+    void  deleteAll();
 }
 

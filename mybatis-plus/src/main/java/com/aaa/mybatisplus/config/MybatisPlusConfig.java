@@ -1,10 +1,17 @@
 package com.aaa.mybatisplus.config;
 
+import com.baomidou.mybatisplus.core.parser.ISqlParser;
+import com.baomidou.mybatisplus.extension.parsers.BlockAttackSqlParser;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
+import lombok.extern.slf4j.Slf4j;
+import net.sf.jsqlparser.statement.delete.Delete;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * description: Spring boot方式
@@ -16,6 +23,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @Configuration
 @MapperScan("com.baomidou.cloud.service.*.mapper*")
+@Slf4j
 public class MybatisPlusConfig {
 
     @Bean
@@ -25,6 +33,26 @@ public class MybatisPlusConfig {
         // paginationInterceptor.setOverflow(false);
         // 设置最大单页限制数量，默认 500 条，-1 不受限制
         // paginationInterceptor.setLimit(500);
+
+
+
+        List<ISqlParser> sqlParserList = new ArrayList<>();
+        // 如果设置了全局逻辑删除、这里会失效，设置局部没关系已经测试
+        // 攻击 SQL 阻断解析器、加入解析链
+        sqlParserList.add(new BlockAttackSqlParser() {
+            @Override
+            public void processDelete(Delete delete) {
+                // 如果你想自定义做点什么，可以重写父类方法像这样子
+                if ("user_test".equals(delete.getTable().getName())) {
+                    // 自定义跳过某个表，其他关联表可以调用 delete.getTables() 判断
+                    log.info("跳过表:"+"user_test(这个表允许全部删除)");
+                    return ;
+                }
+                super.processDelete(delete);
+            }
+        });
+        paginationInterceptor.setSqlParserList(sqlParserList);
+
         return paginationInterceptor;
     }
 }

@@ -4,7 +4,6 @@ import com.aaa.mybatisplus.enums.GenderEnum;
 import com.alibaba.fastjson.annotation.JSONType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -35,7 +34,12 @@ public class User {
     private String name;
     private GenderEnum age;
     private String email;
-    @TableLogic
+    // @TableLogic
+    /**
+     *     实体类字段上加上@TableLogic注解
+     *     使用mp自带方法删除和查找都会附带逻辑删除功能 (自己写的xml不会也包含注解)
+     *     如果配置了 全局逻辑删除 该注解可以不加
+     */
     private Integer isDel;
 }
 
