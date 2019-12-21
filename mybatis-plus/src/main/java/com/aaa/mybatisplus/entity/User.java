@@ -38,6 +38,9 @@ public class User {
 
     @Version
     private Integer status;
+
+    private Integer managerId;
+
     // @TableLogic
     /**
      *     实体类字段上加上@TableLogic注解

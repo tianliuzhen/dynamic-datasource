@@ -16,7 +16,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -37,8 +37,9 @@ public class TestController {
 
     @ApiOperation(value = "分页测试", notes = "插件测试")
     @ApiImplicitParam(name = "page", value = "分页参数", required = true)
-    @GetMapping("/testSelectPage")
-    public void testSelectPage(@RequestBody Page page) {
+    @PostMapping("/testSelectPage")
+    public void testSelectPage() {
+        Page page=new Page();
         System.out.println("分页测试：：：");
         if(page==null){
              page = new Page();
@@ -63,8 +64,14 @@ public class TestController {
         //全表删除或更新
         userMapper.delete(null);
     }
+    @ApiOperation(value = "测试全部删除",notes = "攻击 SQL 阻断解析器")
+    @GetMapping("/testDeleteAll")
+    public void testDeleteAll() {
+        //全表删除或更新
+        userMapper.delete(null);
+    }
     @ApiOperation(value = "测试序列化", notes = "mybatis-plus通用枚举")
-    @GetMapping("/testSelect")
+    @PostMapping("/testSelect")
     public void testSelect() {
         System.out.println(("----- selectAll method test ------"));
         List<User> userList = userMapper.selectList(null);
@@ -78,6 +85,7 @@ public class TestController {
     @GetMapping("/testSelect2")
     public void testSelect2() {
         userService.getById(1);
+        userMapper.getAll();
         System.out.println(userService.list().size());
         System.out.println("---------");
         System.out.println(user2Service.list().size());

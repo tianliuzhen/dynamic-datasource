@@ -1,11 +1,18 @@
 package com.aaa.mybatisplus.config;
 
 import com.baomidou.mybatisplus.core.parser.ISqlParser;
+import com.baomidou.mybatisplus.core.parser.ISqlParserFilter;
+import com.baomidou.mybatisplus.core.parser.SqlParserHelper;
 import com.baomidou.mybatisplus.extension.parsers.BlockAttackSqlParser;
 import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
+import com.baomidou.mybatisplus.extension.plugins.tenant.TenantHandler;
+import com.baomidou.mybatisplus.extension.plugins.tenant.TenantSqlParser;
 import lombok.extern.slf4j.Slf4j;
-import net.sf.jsqlparser.statement.delete.Delete;
+import net.sf.jsqlparser.expression.Expression;
+import net.sf.jsqlparser.expression.LongValue;
+import org.apache.ibatis.mapping.MappedStatement;
+import org.apache.ibatis.reflection.MetaObject;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +34,7 @@ import java.util.List;
 @Slf4j
 public class MybatisPlusConfig {
 
-    @Bean
+  /*  @Bean
     public PaginationInterceptor paginationInterceptor() {
         PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
         // 设置请求的页面大于最大页后操作， true调回到首页，false 继续请求  默认false
@@ -55,7 +62,67 @@ public class MybatisPlusConfig {
         paginationInterceptor.setSqlParserList(sqlParserList);
 
         return paginationInterceptor;
+    }*/
+
+
+    @Bean
+    public PaginationInterceptor paginationInterceptor() {
+        PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
+
+        /**
+         * 1、【测试攻击 SQL】 阻断解析器、加入解析链
+         *     自定义设置参考上面注释
+         */
+        List<ISqlParser> sqlParserList = new ArrayList<>();
+        sqlParserList.add(new BlockAttackSqlParser());
+
+        /**
+         * 2、【测试多租户】 SQL 解析处理拦截器<br>
+         * 传入的值一般都是配置文件 静态变量或者session中取出
+         * 意思就是在你的所有的sql 加一个条件 即是 where  AND user.manager_id = 0
+         */
+        TenantSqlParser tenantSqlParser = new TenantSqlParser();
+        tenantSqlParser.setTenantHandler(new TenantHandler() {
+            @Override
+            public Expression getTenantId(boolean where) {
+                // 该 where 条件 3.2.0 版本开始添加的，用于分区是否为在 where 条件中使用
+                // 此判断用于支持返回多个租户 ID 场景，具体使用查看示例工程
+                return new LongValue(0L);
+            }
+
+            @Override
+            public String getTenantIdColumn() {
+                //多租户自定义字段
+                return "manager_id";
+            }
+
+            @Override
+            public boolean doTableFilter(String tableName) {
+                // 这里可以判断是否过滤表
+            /*
+            if ("user".equals(tableName)) {
+                return true;
+            }*/
+                return false;
+            }
+        });
+        sqlParserList.add(tenantSqlParser);
+        paginationInterceptor.setSqlParserList(sqlParserList);
+        paginationInterceptor.setSqlParserFilter(new ISqlParserFilter() {
+            @Override
+            public boolean doFilter(MetaObject metaObject) {
+                MappedStatement ms = SqlParserHelper.getMappedStatement(metaObject);
+                // 意思允许 UserMapper下的这个 getAll 不用加  AND user.manager_id = 0
+                if ("com.aaa.mybatisplus.mapper.UserMapper.getAll".equals(ms.getId())) {
+                    return true;
+                }
+                return false;
+            }
+        });
+        return paginationInterceptor;
     }
+
+
 
     /**
      * 乐观锁插件
