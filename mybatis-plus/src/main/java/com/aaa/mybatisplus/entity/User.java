@@ -5,6 +5,7 @@ import com.alibaba.fastjson.annotation.JSONType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.Version;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -34,6 +35,9 @@ public class User {
     private String name;
     private GenderEnum age;
     private String email;
+
+    @Version
+    private Integer status;
     // @TableLogic
     /**
      *     实体类字段上加上@TableLogic注解

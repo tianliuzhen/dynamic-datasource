@@ -14,6 +14,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,6 +24,7 @@ import java.util.List;
 
 @RestController
 @Api(tags = "mybatis-plus 文档测试接口")
+@Transactional(rollbackFor = Exception.class)
 public class TestController {
     @Autowired
     private UserMapper userMapper;
@@ -57,7 +59,7 @@ public class TestController {
         //使用mp自带方法删除和查找都会附带逻辑删除功能 (自己写的xml不会包括注解)
         user2Service.removeById(2);
         user2Service.getById(1);
-        System.out.println();
+        System.out.println(1/0);
         //全表删除或更新
         userMapper.delete(null);
     }
@@ -95,5 +97,21 @@ public class TestController {
         //userService.updateById(user1);
         //测试批量添加
          userService.saveBatch(list);
+    }
+    @ApiOperation(value = "乐观锁测试")
+    @GetMapping("/optimisticLocker")
+    public void optimisticLocker() {
+        // 数据库标识
+        int version = 0;
+        User u = new User();
+        u.setId("1208249557103063041");
+        u.setStatus(version);
+        u.setEmail("test@qq.com");
+        if(userService.updateById(u)){
+            System.out.println("Update successfully");
+        }else{
+            System.out.println("由于被其他人修改，更新失败(Update failed due to modified by others)");
+        }
+
     }
 }

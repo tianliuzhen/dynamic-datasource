@@ -2,6 +2,7 @@ package com.aaa.mybatisplus.config;
 
 import com.baomidou.mybatisplus.core.parser.ISqlParser;
 import com.baomidou.mybatisplus.extension.parsers.BlockAttackSqlParser;
+import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.statement.delete.Delete;
@@ -55,6 +56,27 @@ public class MybatisPlusConfig {
 
         return paginationInterceptor;
     }
+
+    /**
+     * 乐观锁插件
+     * 当要更新一条记录的时候，希望这条记录没有被别人更新
+     * 乐观锁实现方式：
+     *     取出记录时，获取当前version
+     *     更新时，带上这个version
+     *     执行更新时， set version = newVersion where version = oldVersion
+     *     如果version不对，就更新失败
+     *     乐观锁配置需要2步 记得两步
+     *     1.插件配置
+     *     2.注解实体字段 @Version 必须要!
+     *
+     *
+     * @return com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor
+     */
+    @Bean
+    public OptimisticLockerInterceptor optimisticLockerInterceptor() {
+        return new OptimisticLockerInterceptor();
+    }
+
 }
 
 
