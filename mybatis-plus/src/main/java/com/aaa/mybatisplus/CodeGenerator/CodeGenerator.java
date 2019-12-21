@@ -63,7 +63,7 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://47.98.253.2:3306/test1?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://47.98.253.2:3306/master?useUnicode=true&useSSL=false&characterEncoding=utf8");
         //指定数据库
          dsc.setSchemaName("test1");
         dsc.setDriverName("com.mysql.jdbc.Driver");
@@ -73,8 +73,8 @@ public class CodeGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        // 会新加一层路径
-        pc.setModuleName(scanner("模块名"));
+        //TODO:  会新加一层路径
+//        pc.setModuleName(scanner("模块名"));
         pc.setParent("com.aaa.mybatisplus");
         mpg.setPackageInfo(pc);
 
@@ -94,11 +94,12 @@ public class CodeGenerator {
         // 自定义输出配置  xml 配置文件
         List<FileOutConfig> focList = new ArrayList<>();
         // 自定义配置会被优先输出
+        // TODO:  生成 xml 文件
         focList.add(new FileOutConfig(templatePath) {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
-                return projectPath + "/src/main/resources/mapper/" + pc.getModuleName()
+                return projectPath + "/src/main/resources/mapper/"  // + pc.getModuleName()
                         + "/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
             }
         });
@@ -141,7 +142,8 @@ public class CodeGenerator {
         strategy.setSuperControllerClass("com.aaa.mybatisplus.common.BaseController");
         // 写于父类中的公共字段
         strategy.setSuperEntityColumns("id");
-        //要设置生成哪些表 如果不设置就是生成所有的表
+        // TODO:要设置生成哪些表 如果不设置就是生成所有的表
+        //  2019/12/21
         strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
