@@ -37,8 +37,12 @@ public class TestController {
         // 当 total 为小于 0 或者设置 setSearchCount(false) 分页插件不会进行 count 查询
         IPage<User> iPage=user2Service.selectUserPage(page, "tom");
         List<User> users=iPage.getRecords();
-
         users.forEach(System.out::println);
+        // 测试逻辑删除
+        //使用mp自带方法删除和查找都会附带逻辑删除功能 (自己写的xml不会包括注解)
+        user2Service.removeById(2);
+        user2Service.getById(1);
+        System.out.println();
     }
 
 
