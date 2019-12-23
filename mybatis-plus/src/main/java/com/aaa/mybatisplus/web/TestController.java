@@ -70,7 +70,7 @@ public class TestController {
         //全表删除或更新
         userMapper.delete(null);
     }
-    @ApiOperation(value = "测试序列化", notes = "mybatis-plus通用枚举")
+    @ApiOperation(value = "测试序列化33", notes = "mybatis-plus通用枚举")
     @PostMapping("/testSelect")
     public void testSelect() {
         System.out.println(("----- selectAll method test ------"));
