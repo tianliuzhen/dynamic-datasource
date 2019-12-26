@@ -40,7 +40,7 @@ public interface UserMapper extends BaseMapper<User> {
     void  deleteAll();
 
 
-    @Select({ " select * from user    " })
+    @Select({ " select * from user   limit 11   " })
     List<User> getAll();
 
     /**
