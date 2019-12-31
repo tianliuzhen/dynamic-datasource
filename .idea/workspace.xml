@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="修改版本号">
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/configs/LogFileName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/configs/LoggerUtils.java" afterDir="false" />
+    <list default="true" id="e5f6cc3a-ce4f-4efc-8919-5959838fdfdf" name="Default" comment="不同业务逻辑的日志打印到不同文件、&#10;自定义输出log文件名字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/web/TestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/test/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/test/java/com/aaa/dynamicdatamybatishikari2/DynamicDataMybatisHikari2ApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/dynamic-data-mybatis-druid/target/" />
@@ -50,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="91" column="71" lean-forward="true" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+            <state relative-caret-position="552">
+              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -145,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="-177">
               <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
@@ -709,7 +704,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577776219165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577776417419" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mybatis-plus/src/test/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-data-mybatis-druid-and-hikariCP/pom.xml" />
@@ -1028,7 +1023,7 @@
       <workItem from="1577150477288" duration="3008000" />
       <workItem from="1577256466289" duration="86000" />
       <workItem from="1577331198498" duration="5563000" />
-      <workItem from="1577770952518" duration="5149000" />
+      <workItem from="1577770952518" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 代码生成器 生成整个库，及去除 example配置">
       <created>1576307788945</created>
@@ -1184,7 +1179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577350404562</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="不同业务逻辑的日志打印到不同文件、&#10;自定义输出log文件名字">
+      <created>1577776266411</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1577776266411</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1220,12 +1222,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140214000" />
+    <option name="totallyTimeSpent" value="140470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1260,7 +1263,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info active="true" anchor="right" id="RestServices" order="5" visible="true" weight="0.15351813" />
+      <window_info anchor="right" id="RestServices" order="5" visible="true" weight="0.15351813" />
       <window_info anchor="right" id="Database" order="6" weight="0.32942432" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
@@ -1337,7 +1340,9 @@
     <MESSAGE value="配置 多租户 SQL 解析器" />
     <MESSAGE value="jenkins 聚合项目打包测试(新增最外层的pom文件)" />
     <MESSAGE value="修改版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改版本号" />
+    <MESSAGE value="不同业务逻辑的日志打印到不同文件" />
+    <MESSAGE value="不同业务逻辑的日志打印到不同文件、&#10;自定义输出log文件名字" />
+    <option name="LAST_COMMIT_MESSAGE" value="不同业务逻辑的日志打印到不同文件、&#10;自定义输出log文件名字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1735,13 +1740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/java/com/aaa/dynamicdatamybatishikari2/configs/LogFileName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
@@ -1764,10 +1762,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dynamic-data-mybatisPlus-hikari2/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="91" column="71" lean-forward="true" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+        <state relative-caret-position="552">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
         </state>
       </provider>
     </entry>

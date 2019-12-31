@@ -96,7 +96,15 @@
             </timeBasedFileNamingAndTriggeringPolicy>
         </rollingPolicy>
         <encoder charset="UTF-8">
-         <!--   &#45;&#45;格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符&ndash;&gt;-->
+            <!--  为大数据分析去除无用打印 -->
+         <!--
+         &#45;&#45;格式化输出：
+         %d表示日期，
+         %thread表示线程名，
+         %-5level： 级别从左显示5个字符宽度
+         %msg：日志消息，
+         %n是换行符&ndash;&gt;
+         -->
             <pattern>%msg%n</pattern>
             <charset>UTF-8</charset>
         </encoder>
