@@ -11,14 +11,16 @@ server:
   port: 7571
 
 spring:
+  application:
+    name: dynamic-data-mybatisPlus-hikari2
   datasource:
     db:
-      jdbcUrl: jdbc:mysql://47.98.253.2:3306/test1?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+      jdbcUrl: jdbc:mysql://47.98.253.2:3306/master?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
       username: root
       password: Tlz19970905
       driverClassName: com.mysql.cj.jdbc.Driver
     db2:
-      jdbcUrl: jdbc:mysql://47.98.253.2:3306/test2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+      jdbcUrl: jdbc:mysql://47.98.253.2:3306/slave?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
       username: root
       password: Tlz19970905
       driverClassName: com.mysql.cj.jdbc.Driver
@@ -40,6 +42,7 @@ mybatis-plus:
   mapper-locations: classpath:/mapper/*.xml
   type-aliases-package: com.aaa.dynamicdatamybatishikari2.model.entity
 
+#logging
 logging:
-  config: classpath:logback-spring.xml
+  path: D:/opt/logs/${spring.application.name}
 
