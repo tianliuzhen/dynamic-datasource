@@ -22,6 +22,20 @@ import lombok.experimental.Accessors;
 //@KeySequence(value = "mybatisKeyGenerator", clazz = String.class)
 @TableName("user")
 public class User {
+
+    /**
+     *
+     * CREATE TABLE `user` (
+     *   `id` varchar(50) DEFAULT NULL,
+     *   `name` varchar(50) DEFAULT NULL,
+     *   `age` tinyint(1) DEFAULT NULL,
+     *   `email` varchar(50) DEFAULT NULL,
+     *   `status` tinyint(1) NOT NULL DEFAULT '0',
+     *   `manager_id` tinyint(1) DEFAULT NULL,
+     *   `is_del` tinyint(1) NOT NULL DEFAULT '0'
+     * ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+     *
+     * */
     /**
      *
      * 官网说： 只有 type = IdType.INPUT  时 外部自定义的主键生成器才能生效

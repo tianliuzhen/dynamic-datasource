@@ -1,5 +1,7 @@
 package com.aaa.mybatisplus.web;
 
+import com.aaa.mybatisplus.config.configRespone.ObjectResultResponse;
+import com.aaa.mybatisplus.entity.PageDto;
 import com.aaa.mybatisplus.entity.User;
 import com.aaa.mybatisplus.enums.GenderEnum;
 import com.aaa.mybatisplus.mapper.UserMapper;
@@ -17,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -38,7 +41,7 @@ public class TestController {
     @ApiOperation(value = "分页测试", notes = "插件测试")
     @ApiImplicitParam(name = "page", value = "分页参数", required = true)
     @PostMapping("/testSelectPage")
-    public void testSelectPage() {
+    public ObjectResultResponse<?> testSelectPage(@RequestBody PageDto pageDto ) {
         Page page=new Page();
         System.out.println("分页测试：：：");
         if(page==null){
@@ -46,13 +49,18 @@ public class TestController {
         }
 
         // 每页数量、当前页
-        page.setSize(5).setCurrent(1);
+        page.setSize(pageDto.getSize()).setCurrent(pageDto.getCurrent());
         // 当 total 为小于 0 或者设置 setSearchCount(false) 分页插件不会进行 count 查询
         IPage<User> iPage=user2Service.selectUserPage(page, "tom");
         List<User> users=iPage.getRecords();
         users.forEach(System.out::println);
 
+
+
+        return new ObjectResultResponse(page);
     }
+
+
     @ApiOperation(value = "测试逻辑删除")
     @GetMapping("/testUpdateLocal")
     public void testUpdateLocal() {
@@ -94,7 +102,7 @@ public class TestController {
     @GetMapping("/testAdds")
     public void testAdds() {
         List<User> list=new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 100; i++) {
             User user=new User();
             user.setName("tom"+i);
             list.add(user);
