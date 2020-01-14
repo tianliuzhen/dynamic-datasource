@@ -1,10 +1,8 @@
 package com.aaa.mybatisplus.config.configRespone;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.*;
+import lombok.Data;
 
 /**
  * description: 描述
@@ -13,13 +11,7 @@ import lombok.*;
  * @version 1.0
  * @date 2020/1/14
  */
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString(callSuper = true)
-@EqualsAndHashCode(callSuper = true)
-@JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonIgnoreProperties(value = {"hibernateLazyInitializer", "handler", "fieldHandler"}, ignoreUnknown = true)
+@Data
 @ApiModel("相应数据")
 public class ObjectResultResponse<T> extends RestfulResponse {
 

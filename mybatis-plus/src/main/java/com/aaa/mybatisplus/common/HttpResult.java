@@ -1,22 +1,24 @@
 package com.aaa.mybatisplus.common;
 
+import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
- * description: 描述
+ * description: 泛型的参数
  *
  * @author 田留振(liuzhen.tian @ haoxiaec.com)
  * @version 1.0
  * @date 2019/12/18
  */
-public class HttpResult<T> {
-    public void setSuccess(boolean b) {
-    }
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class HttpResult<T> extends BaseRestfulResponse{
 
-    public <T> void setData(T data) {
-    }
+    @ApiModelProperty(value = "泛型-接口响应数据")
+    private T data;
 
-    public void setMessage(String msg) {
-    }
 
-    public void setCode(int code) {
-    }
 }

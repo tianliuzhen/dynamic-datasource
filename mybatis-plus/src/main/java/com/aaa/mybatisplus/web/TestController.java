@@ -7,6 +7,7 @@ import com.aaa.mybatisplus.enums.GenderEnum;
 import com.aaa.mybatisplus.mapper.UserMapper;
 import com.aaa.mybatisplus.service.User2Service;
 import com.aaa.mybatisplus.service.UserService;
+import com.aaa.mybatisplus.test.B;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.TypeReference;
@@ -17,14 +18,12 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@ControllerAdvice
 @RestController
 @Api(tags = "mybatis-plus 文档测试接口")
 @Transactional(rollbackFor = Exception.class)
@@ -130,4 +129,13 @@ public class TestController {
         }
 
     }
+
+    @ApiOperation(value = "测试返回值")
+    @GetMapping("/response")
+    public B<?> getB(){
+        System.out.println(new B().num);
+          return new B<>("我是字符串");
+    }
+
+
 }
