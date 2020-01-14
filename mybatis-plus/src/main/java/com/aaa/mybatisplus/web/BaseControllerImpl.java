@@ -1,10 +1,12 @@
 package com.aaa.mybatisplus.web;
 
-import com.aaa.mybatisplus.common.BaseController;
-import com.aaa.mybatisplus.common.HttpResult;
+import com.aaa.mybatisplus.annotation.LessLog;
+import com.aaa.mybatisplus.enums.LogType;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,19 +18,34 @@ import java.util.Map;
  * @date 2020/1/14
  */
 @RestController
-public class BaseControllerImpl extends BaseController {
+public class BaseControllerImpl  {
 
 
-    @PostMapping ("/test")
-    public HttpResult<Map> updateUser() {
-        try {
+    @PostMapping ("/testStr")
+    public String testStr() {
             Map map=new HashMap();
             map.put("key","val");
-            return responseOK(map);
+            return "字符串";
 
-        } catch (Exception ex) {
-            //异常处理
-            return responseFail();
-        }
+    }
+    //不打印响应日志
+    @LessLog(type = LogType.RESPONSE)
+    @PostMapping ("/testInt")
+    public int testInt(@Valid @RequestParam("i") int i) {
+        Map map=new HashMap();
+        map.put("key","val");
+        return i;
+
+    }
+
+    @PostMapping ("/testMap")
+    public Map testMap() {
+        Map map=new HashMap();
+
+        map.put("key","val");
+        System.out.println("Shift.fatal(DiyResultCode.INVALID_PARAM);");
+
+        return map;
+
     }
 }

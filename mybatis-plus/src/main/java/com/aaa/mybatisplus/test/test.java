@@ -1,6 +1,4 @@
-package com.aaa.mybatisplus.web;
-
-import com.aaa.mybatisplus.test.B;
+package com.aaa.mybatisplus.test;
 
 /**
  * description: 描述

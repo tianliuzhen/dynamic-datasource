@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * description: 描述
+ * description: 自定义返回值
  *
  * @author 田留振(liuzhen.tian @ haoxiaec.com)
  * @version 1.0

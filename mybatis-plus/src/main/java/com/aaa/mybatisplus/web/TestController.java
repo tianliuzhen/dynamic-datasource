@@ -16,17 +16,22 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@ControllerAdvice
+
 @RestController
 @Api(tags = "mybatis-plus 文档测试接口")
 @Transactional(rollbackFor = Exception.class)
+@Slf4j
 public class TestController {
     @Autowired
     private UserMapper userMapper;
@@ -53,7 +58,7 @@ public class TestController {
         IPage<User> iPage=user2Service.selectUserPage(page, "tom");
         List<User> users=iPage.getRecords();
         users.forEach(System.out::println);
-
+        log.info("1211");
 
 
         return new ObjectResultResponse(page);
