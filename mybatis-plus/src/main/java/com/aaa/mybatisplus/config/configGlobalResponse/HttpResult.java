@@ -1,3 +1,4 @@
+/*
 package com.aaa.mybatisplus.config.configGlobalResponse;
 
 import com.aaa.mybatisplus.enums.ResultCode;
@@ -6,13 +7,15 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+*/
 /**
  * description: 泛型的参数
  *
  * @author 田留振(liuzhen.tian @ haoxiaec.com)
  * @version 1.0
  * @date 2019/12/18
- */
+ *//*
+
 
 @Data
 @NoArgsConstructor
@@ -38,26 +41,33 @@ public class HttpResult<T> implements Serializable {
         this.message = resultCode.getMessage();
     }
 
-    /**
+    */
+/**
      * 成功返回
-     */
+     *//*
+
     public static <T> HttpResult<T> ok(T data) {
         return new HttpResult<>(Boolean.TRUE, data, ResultCode.SUCCESS);
     }
 
-    /**
+    */
+/**
      * 异常返回-指定错误码
-     */
+     *//*
+
     public static HttpResult fail(ResultCode resultCode) {
         return new HttpResult<>(Boolean.FALSE, null, resultCode);
     }
 
-    /**
+    */
+/**
      * 异常返回-非指定异常
-     */
+     *//*
+
     public static HttpResult fail(Integer code, String message) {
         return new HttpResult<>(Boolean.FALSE, null, code, message);
     }
 
     //getter and setter
 }
+*/
