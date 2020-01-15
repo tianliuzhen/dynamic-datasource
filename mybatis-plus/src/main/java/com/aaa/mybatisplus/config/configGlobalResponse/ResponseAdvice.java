@@ -28,10 +28,15 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Author: Sawyer
- * @Description: 统一异常处理及返回对象封装
- * @Date: Created in 上午11:17 17/8/11
+ * description:
+ * 统一异常处理及返回对象封装
+ * 但是有个缺点，就是默认会给正确或则错误的 自动附加参数。不够精确
+ * 这里先注释掉
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/18
  */
+
 @Slf4j
 @ControllerAdvice
 public class ResponseAdvice implements ResponseBodyAdvice {

@@ -13,6 +13,7 @@ import java.io.Serializable;
  * @version 1.0
  * @date 2019/12/18
  */
+
 @Data
 @NoArgsConstructor
 public class HttpResult<T> implements Serializable {

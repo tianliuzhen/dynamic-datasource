@@ -1,7 +1,5 @@
 package com.aaa.mybatisplus.web;
 
-import com.aaa.mybatisplus.annotation.LessLog;
-import com.aaa.mybatisplus.enums.LogType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,7 +27,7 @@ public class BaseControllerImpl  {
 
     }
     //不打印响应日志
-    @LessLog(type = LogType.RESPONSE)
+//    @LessLog(type = LogType.RESPONSE)
     @PostMapping ("/testInt")
     public int testInt(@Valid @RequestParam("i") int i) {
         Map map=new HashMap();
@@ -41,6 +39,7 @@ public class BaseControllerImpl  {
     @PostMapping ("/testMap")
     public Map testMap() {
         Map map=new HashMap();
+
 
         map.put("key","val");
         System.out.println("Shift.fatal(DiyResultCode.INVALID_PARAM);");
