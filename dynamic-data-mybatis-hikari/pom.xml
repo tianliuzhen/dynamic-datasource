@@ -77,6 +77,14 @@
             <artifactId>swagger-bootstrap-ui</artifactId>
             <version>1.9.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>2.1.5</version>
+        </dependency>
+
+
     </dependencies>
     <dependencyManagement>
         <dependencies>

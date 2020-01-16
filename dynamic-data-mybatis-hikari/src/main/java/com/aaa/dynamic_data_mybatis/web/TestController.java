@@ -1,7 +1,9 @@
 package com.aaa.dynamic_data_mybatis.web;
 
 import com.aaa.dynamic_data_mybatis.dao.test1.Test1Mapper;
+import com.aaa.dynamic_data_mybatis.dao.test1.TkMapperTest1;
 import com.aaa.dynamic_data_mybatis.dao.test2.Test2Mapper;
+import com.aaa.dynamic_data_mybatis.entity.A;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,6 +28,9 @@ public class TestController {
     @Autowired
     private Test2Mapper test2Mapper;
 
+    @Autowired
+    private TkMapperTest1 tkMapperTest1;
+
     @ApiOperation("test测试接口")
     @GetMapping("/test")
     public void test1(){
@@ -38,5 +43,16 @@ public class TestController {
         for (Map map : list2) {
             System.out.println(map.get("a")+"_"+map.get("b"));
         }
+    }
+    @ApiOperation("test测试接口")
+    @GetMapping("/testTKmapper")
+    public void testTKmapper(){
+
+        A a=new A();
+        a.setA("12");
+        a.setB(2222);
+        tkMapperTest1.insert(a);
+
+        System.out.println(tkMapperTest1.selectAll().size());;
     }
 }
