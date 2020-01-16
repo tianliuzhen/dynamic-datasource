@@ -6,9 +6,10 @@ import javax.sql.DataSource;
 import java.util.Map;
 
 /**
- * @author: Mr.裴
- * @create 2019/9/27
- * @Description: 动态数据源
+ *  动态数据源
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/31
  **/
 public class DynamicDataSource extends AbstractRoutingDataSource {
 

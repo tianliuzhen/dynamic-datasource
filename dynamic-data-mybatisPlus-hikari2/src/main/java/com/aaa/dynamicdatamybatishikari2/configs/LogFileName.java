@@ -3,7 +3,7 @@ package com.aaa.dynamicdatamybatishikari2.configs;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * description: 描述
+ * description: 日志分类
  *
  * @author 田留振(liuzhen.tian @ haoxiaec.com)
  * @version 1.0

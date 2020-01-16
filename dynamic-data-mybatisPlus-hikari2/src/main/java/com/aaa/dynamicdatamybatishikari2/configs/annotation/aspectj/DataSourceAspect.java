@@ -14,9 +14,10 @@ import java.lang.reflect.Method;
 import java.util.Objects;
 
 /**
- * @author: Mr.裴
- * @create 2019/9/29
- * @Description: 动态数据源Aop切换
+ *   动态数据源Aop切换
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/31
  **/
 @Aspect
 //配置加载顺序

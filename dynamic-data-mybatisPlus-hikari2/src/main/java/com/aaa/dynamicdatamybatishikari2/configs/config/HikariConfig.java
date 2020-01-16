@@ -16,9 +16,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author: Mr.裴
- * @create 2019/9/27
- * @Description: Hikari多数据源配置
+ *  Hikari多数据源配置
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/31
  **/
 @Configuration
 public class HikariConfig {

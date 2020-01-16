@@ -3,9 +3,10 @@ package com.aaa.dynamicdatamybatishikari2.configs.datasource;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author: Mr.裴
- * @create 2019/9/27
- * @Description: 动态数据源切换处理
+ *  动态数据源切换处理
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/31
  **/
 @Slf4j
 public class DynamicDataSourceContextHolder {

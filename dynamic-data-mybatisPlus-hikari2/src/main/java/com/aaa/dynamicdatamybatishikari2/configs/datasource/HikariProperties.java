@@ -5,9 +5,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: Mr.裴
- * @create 2019/9/29
- * @Description: 连接池设置
+ *  连接池设置
+ * @author 田留振(liuzhen.tian @ haoxiaec.com)
+ * @version 1.0
+ * @date 2019/12/31
  **/
 @Configuration
 public class HikariProperties {

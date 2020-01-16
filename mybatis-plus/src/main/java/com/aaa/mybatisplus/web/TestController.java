@@ -109,9 +109,14 @@ public class TestController {
     @GetMapping("/testAdds")
     public void testAdds() {
         List<User> list=new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 30; i++) {
             User user=new User();
             user.setName("tom"+i);
+            if(i%2==0){
+                user.setAge(GenderEnum.MALE);
+            }else {
+                user.setAge(GenderEnum.FEMALE);
+            }
             list.add(user);
         }
         User user1=new User();
