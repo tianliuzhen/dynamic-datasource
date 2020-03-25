@@ -20,8 +20,7 @@ import java.util.Objects;
  * @date 2019/12/31
  **/
 @Aspect
-//配置加载顺序
-@Order(1)
+@Order(1)//配置加载顺序
 @Component
 public class DataSourceAspect {
 
