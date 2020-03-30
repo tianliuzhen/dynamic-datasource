@@ -6,6 +6,7 @@ import com.aaa.dynamic_data_mybatis.dao.test2.Test2Mapper;
 import com.aaa.dynamic_data_mybatis.entity.A;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -54,5 +55,26 @@ public class TestController {
         tkMapperTest1.insert(a);
 
         System.out.println(tkMapperTest1.selectAll().size());;
+    }
+
+    @ApiOperation("单个数据源事务测试")
+    @GetMapping(value = "/txDbOne")
+    @Transactional(value="test1TransactionManager",rollbackFor = Exception.class,timeout=36000)
+    public void txDbOne(){
+        //这种只能回滚一个 数据源
+        test1Mapper.updateByA(1);
+        test2Mapper.updateByA(1);
+        throw new RuntimeException("测试是否会回滚");
+    }
+
+    @ApiOperation("多数据源事务测试")
+    @GetMapping(value = "/txDb2")
+    @Transactional()
+    public void txDb2(){
+        //使用atomikos+jta解决分布式事务问题
+
+        test1Mapper.updateByA(1);
+        test2Mapper.updateByA(1);
+        throw new RuntimeException("测试是否会回滚");
     }
 }

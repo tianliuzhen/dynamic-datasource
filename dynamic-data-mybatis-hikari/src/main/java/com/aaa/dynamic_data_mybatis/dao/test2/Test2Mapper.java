@@ -1,7 +1,9 @@
 package com.aaa.dynamic_data_mybatis.dao.test2;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -26,4 +28,7 @@ public interface Test2Mapper {
 
     @Select("select * from  a")
     List<Map> getAll2();
+
+    @Update("update a set b=9 where a=#{id} ")
+    int updateByA(@Param("id") int id);
 }
