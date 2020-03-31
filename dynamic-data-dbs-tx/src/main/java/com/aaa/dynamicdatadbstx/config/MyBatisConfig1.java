@@ -1,10 +1,15 @@
 package com.aaa.dynamicdatadbstx.config;
 
 
+import com.alibaba.druid.pool.xa.DruidXADataSource;
 import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
 import tk.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
@@ -24,48 +29,34 @@ import java.sql.SQLException;
  */
 @Configuration
 // basePackages 最好分开配置 如果放在同一个文件夹可能会报错
-@MapperScan(basePackages = "com.aaa.dynamicdatadbstx.dao.test1", sqlSessionTemplateRef = "test1SqlSessionTemplate")
+@MapperScan(basePackages = "com.aaa.dynamicdatadbstx.dao.test1", sqlSessionFactoryRef = "oneSqlSessionFactory")
 public class MyBatisConfig1 {
-    /**
-     * @methodDesc:功能描述:(配置数据源)
-     * @param testConfig
-     * @return
-     */
-    @Bean(name = "test1DataSource")
-    public DataSource testDataSource(DBConfig1 testConfig) throws SQLException {
-        MysqlXADataSource mysqlXaDataSource = new MysqlXADataSource();
-        mysqlXaDataSource.setUrl(testConfig.getUrl());
-        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
-        mysqlXaDataSource.setPassword(testConfig.getPassword());
-        mysqlXaDataSource.setUser(testConfig.getUsername());
-        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
-        // 将本地事务注册到Atomikos
+    @Autowired
+    public OneDataSourceProperties oneDataSourceProperties;
+
+    //配置第一个数据源
+    @Primary
+    @Bean(name = "oneDataSource")
+    public DataSource oneDataSource() {
+        // 这里datasource要使用阿里的支持XA的DruidXADataSource
+        DruidXADataSource datasource = new DruidXADataSource();
+        BeanUtils.copyProperties(oneDataSourceProperties,datasource);
         AtomikosDataSourceBean xaDataSource = new AtomikosDataSourceBean();
-        xaDataSource.setXaDataSource(mysqlXaDataSource);
-        xaDataSource.setUniqueResourceName("test1DataSource");
-        // 配置信息
-        xaDataSource.setMinPoolSize(testConfig.getMinPoolSize());
-        xaDataSource.setMaxPoolSize(testConfig.getMaxPoolSize());
-        xaDataSource.setMaxLifetime(testConfig.getMaxLifetime());
-        xaDataSource.setBorrowConnectionTimeout(testConfig.getBorrowConnectionTimeout());
-        xaDataSource.setLoginTimeout(testConfig.getLoginTimeout());
-        xaDataSource.setMaintenanceInterval(testConfig.getMaintenanceInterval());
-        xaDataSource.setMaxIdleTime(testConfig.getMaxIdleTime());
-        xaDataSource.setTestQuery(testConfig.getTestQuery());
+        xaDataSource.setXaDataSource(datasource);
+        xaDataSource.setUniqueResourceName("oneDataSource");
         return xaDataSource;
     }
 
-    @Bean(name = "test1SqlSessionFactory")
-    public SqlSessionFactory testSqlSessionFactory(@Qualifier("test1DataSource") DataSource dataSource) throws Exception {
+    //配置第一个sqlsessionFactory
+    @Primary
+    @Bean(name = "oneSqlSessionFactory")
+    public SqlSessionFactory oneSqlSessionFactory(@Qualifier("oneDataSource") DataSource oneDataSource)
+            throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
-        bean.setDataSource(dataSource);
+        bean.setDataSource(oneDataSource);
+        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+//        bean.setMapperLocations(resolver.getResources("classpath:mapping/sid/*.xml"));
         return bean.getObject();
-    }
-
-    @Bean(name = "test1SqlSessionTemplate")
-    public SqlSessionTemplate testSqlSessionTemplate(
-            @Qualifier("test1SqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
-        return new SqlSessionTemplate(sqlSessionFactory);
     }
 }
 

@@ -24,6 +24,7 @@ public interface Test1Mapper {
      * 测试表一
      * @return java.util.List<java.util.Map>
      */
+    @Select("select * from  a")
     List<Map> getAll();
 
     @Select("select * from  a")

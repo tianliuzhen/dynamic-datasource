@@ -1,9 +1,14 @@
 package com.aaa.dynamicdatadbstx.config;
 
+import com.alibaba.druid.pool.xa.DruidXADataSource;
 import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
 import tk.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.jta.atomikos.AtomikosDataSourceBean;
@@ -22,48 +27,28 @@ import java.sql.SQLException;
  */
 @Configuration
 // basePackages 最好分开配置 如果放在同一个文件夹可能会报错
-@MapperScan(basePackages = "com.aaa.dynamicdatadbstx.dao.test2", sqlSessionTemplateRef = "test2SqlSessionTemplate")
+@MapperScan(basePackages = "com.aaa.dynamicdatadbstx.dao.test2", sqlSessionFactoryRef = "twoSqlSessionFactory")
 public class MyBatisConfig2 {
-    /**
-     * @methodDesc:功能描述:(配置数据源)
-     * @param testConfig
-     * @return
-     */
-    @Bean(name = "test2DataSource")
-    public DataSource testDataSource(DBConfig2 testConfig) throws SQLException {
-        MysqlXADataSource mysqlXaDataSource = new MysqlXADataSource();
-        mysqlXaDataSource.setUrl(testConfig.getUrl());
-        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
-        mysqlXaDataSource.setPassword(testConfig.getPassword());
-        mysqlXaDataSource.setUser(testConfig.getUsername());
-        mysqlXaDataSource.setPinGlobalTxToPhysicalConnection(true);
-        // 将本地事务注册到Atomikos
+    @Autowired
+    public TwoDataSourceProperties twoDataSourceProperties;
+
+    @Bean(name = "twoDataSource")
+    public DataSource twoDataSource() {
+        DruidXADataSource datasource = new DruidXADataSource();
+        BeanUtils.copyProperties(twoDataSourceProperties,datasource);
         AtomikosDataSourceBean xaDataSource = new AtomikosDataSourceBean();
-        xaDataSource.setXaDataSource(mysqlXaDataSource);
-        xaDataSource.setUniqueResourceName("test2DataSource");
-        // 配置信息
-        xaDataSource.setMinPoolSize(testConfig.getMinPoolSize());
-        xaDataSource.setMaxPoolSize(testConfig.getMaxPoolSize());
-        xaDataSource.setMaxLifetime(testConfig.getMaxLifetime());
-        xaDataSource.setBorrowConnectionTimeout(testConfig.getBorrowConnectionTimeout());
-        xaDataSource.setLoginTimeout(testConfig.getLoginTimeout());
-        xaDataSource.setMaintenanceInterval(testConfig.getMaintenanceInterval());
-        xaDataSource.setMaxIdleTime(testConfig.getMaxIdleTime());
-        xaDataSource.setTestQuery(testConfig.getTestQuery());
+        xaDataSource.setXaDataSource(datasource);
+        xaDataSource.setUniqueResourceName("twoDataSource");
         return xaDataSource;
     }
 
-
-    @Bean(name = "test2SqlSessionFactory")
-    public SqlSessionFactory testSqlSessionFactory(@Qualifier("test2DataSource") DataSource dataSource) throws Exception {
+    @Bean(name = "twoSqlSessionFactory")
+    public SqlSessionFactory twoSqlSessionFactory(@Qualifier("twoDataSource") DataSource twoDataSource)
+            throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
-        bean.setDataSource(dataSource);
+        bean.setDataSource(twoDataSource);
+        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+//        bean.setMapperLocations(resolver.getResources("classpath:mapping/lee/*.xml"));
         return bean.getObject();
-    }
-
-    @Bean(name = "test2SqlSessionTemplate")
-    public SqlSessionTemplate testSqlSessionTemplate(
-            @Qualifier("test2SqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
-        return new SqlSessionTemplate(sqlSessionFactory);
     }
 }
