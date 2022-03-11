@@ -24,7 +24,7 @@ import java.util.Objects;
 @Component
 public class DataSourceAspect {
 
-    @Pointcut("@annotation(com.aaa.dynamicdatamybatishikari2.configs.annotation.DB)")
+    @Pointcut("@annotation(com.aaa.dynamicdatamybatishikari2.configs.annotation.DB) || @within(com.aaa.dynamicdatamybatishikari2.configs.annotation.DB)")
     public void doPointCut(){}
 
 

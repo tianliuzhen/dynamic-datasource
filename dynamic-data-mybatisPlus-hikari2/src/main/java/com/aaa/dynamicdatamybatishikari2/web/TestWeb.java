@@ -47,11 +47,17 @@ public class TestWeb {
     @Autowired
     private SysUserSeriveImpl sysUserService;
 
+    /**
+     * 从库测试
+     */
     @GetMapping("/open2")
     public Object login(){
         return  dbService.selectTwo(1);
     }
 
+    /**
+     * 主库测试
+     */
     @GetMapping("/open")
     public Object login1(){
         return dbService.selectUser(1);

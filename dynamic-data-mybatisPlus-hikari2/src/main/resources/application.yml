@@ -15,14 +15,14 @@ spring:
     name: dynamic-data-mybatisPlus-hikari2
   datasource:
     db:
-      jdbcUrl: jdbc:mysql://47.98.253.2:3306/master?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/master?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
       username: root
-      password: Tlz19970905
+      password: 123456
       driverClassName: com.mysql.cj.jdbc.Driver
     db2:
-      jdbcUrl: jdbc:mysql://47.98.253.2:3306/slave?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+      jdbcUrl: jdbc:mysql://127.0.0.1:3306/slave?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
       username: root
-      password: Tlz19970905
+      password: 123456
       driverClassName: com.mysql.cj.jdbc.Driver
       enabled: true
     type: com.zaxxer.hikari.HikariDataSource
@@ -42,7 +42,4 @@ mybatis-plus:
   mapper-locations: classpath:/mapper/*.xml
   type-aliases-package: com.aaa.dynamicdatamybatishikari2.model.entity
 
-#logging
-logging:
-  path: D:/opt/logs/${spring.application.name}
 

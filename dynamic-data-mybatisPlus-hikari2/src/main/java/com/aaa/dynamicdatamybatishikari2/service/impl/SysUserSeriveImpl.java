@@ -1,6 +1,9 @@
 package com.aaa.dynamicdatamybatishikari2.service.impl;
 
 import com.aaa.dynamicdatamybatishikari2.base.SysUserService;
+import com.aaa.dynamicdatamybatishikari2.configs.annotation.DB;
+import com.aaa.dynamicdatamybatishikari2.dao.SysUserOneDao;
+import com.aaa.dynamicdatamybatishikari2.enums.DataSourceType;
 import com.aaa.dynamicdatamybatishikari2.mapper.SysUserOneMapper;
 import com.aaa.dynamicdatamybatishikari2.model.entity.db.SysUserOne;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -17,11 +20,12 @@ import java.util.List;
  * @version 1.0
  * @date 2019/12/17
  */
+@DB(DataSourceType.DB1)
 @Service
 public class SysUserSeriveImpl  extends ServiceImpl<SysUserOneMapper, SysUserOne>  implements SysUserService {
 
     @Autowired
-    private  SysUserService sysUserService;
+    private SysUserOneDao sysUserOneDao;
 
     public void  insertBatch(){
         List<SysUserOne> list =new ArrayList<>();
@@ -30,7 +34,7 @@ public class SysUserSeriveImpl  extends ServiceImpl<SysUserOneMapper, SysUserOne
             sysUserOne.setUserId(i).setUserName("tom"+i);
             list.add(sysUserOne);
         }
-        sysUserService.getById(1);
-//        sysUserService.saveBatch(list);
+        // sysUserOneDao.selectById(1);
+       this.saveBatch(list);
     }
 }
